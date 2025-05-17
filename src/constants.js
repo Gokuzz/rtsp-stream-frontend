@@ -1,1 +1,1 @@
-const websocket_url='ws://127.0.0.1:8000/ws/stream/'
+const websocket_url = 'wss://rtsp-stream-backend-1.onrender.com/ws/stream/';

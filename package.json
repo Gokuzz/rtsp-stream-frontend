@@ -2,7 +2,7 @@
   "name": "rtsp-fe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Gokuzz.github.io/RTSP",
+  "homepage": "https://Gokuzz.github.io/rtsp-stream-frontend",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
