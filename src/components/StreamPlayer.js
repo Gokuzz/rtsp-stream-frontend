@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import * as mpegts from 'mpegts.js';
-import websocket_url from '../constants';
 import './StreamPlayer.css'; // import the CSS
 
 const StreamPlayer = ({ stream, onRemove }) => {
@@ -14,7 +13,7 @@ const StreamPlayer = ({ stream, onRemove }) => {
             const player = mpegts.createPlayer({
                 type: 'mpegts',
                 isLive: true,
-                url: `${websocket_url}${stream.id}/?rtsp=${rtspUrl}`,
+                url: `wss://rtsp-stream-backend-1.onrender.com/ws/stream/${stream.id}/?rtsp=${rtspUrl}`,
             }, {
                 enableWorker: true,
                 liveBufferLatencyChasing: true,

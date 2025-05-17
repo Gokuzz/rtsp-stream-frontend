@@ -90,7 +90,7 @@ function App() {
                     value={newStream} 
                     onChange={(e) => setNewStream(e.target.value)}
                     onKeyPress={handleKeyPress}
-                    placeholder="Enter RTSP URL (e.g., rtsp://username:password@host:port/path)"
+                    placeholder="Enter RTSP URL (e.g., rtsp://username:pass@host:port/path)"
                     disabled={isAdding}
                     className="rtsp-input"
                 />
