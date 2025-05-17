@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RTSP/static/css/main.efc546e6.css",
+    "main.js": "/RTSP/static/js/main.7be9dc60.js",
+    "static/js/453.021cfd8e.chunk.js": "/RTSP/static/js/453.021cfd8e.chunk.js",
+    "index.html": "/RTSP/index.html",
+    "main.efc546e6.css.map": "/RTSP/static/css/main.efc546e6.css.map",
+    "main.7be9dc60.js.map": "/RTSP/static/js/main.7be9dc60.js.map",
+    "453.021cfd8e.chunk.js.map": "/RTSP/static/js/453.021cfd8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efc546e6.css",
+    "static/js/main.7be9dc60.js"
+  ]
+}
