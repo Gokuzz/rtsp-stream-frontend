@@ -32,7 +32,7 @@ const StreamInput = ({ onAddStream }) => {
                         setUrl(e.target.value);
                         setError('');
                     }}
-                    placeholder="Enter RTSP URL (e.g., rtsp://username:password@host:port/path)"
+                    placeholder="Enter RTSP URL (e.g., rtsp://username:pass@host:port/path)"
                     style={{ width: '400px', padding: '8px', marginRight: '10px' }}
                 />
                 <button type="submit" style={{ padding: '8px 16px' }}>
