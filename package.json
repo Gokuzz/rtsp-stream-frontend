@@ -2,6 +2,7 @@
   "name": "rtsp-fe",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://rtsp-stream-backend-1.onrender.com",
   "homepage": "https://Gokuzz.github.io/rtsp-stream-frontend",
 
   "dependencies": {
