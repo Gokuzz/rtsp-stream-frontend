@@ -13,7 +13,7 @@ const StreamPlayer = ({ stream, onRemove }) => {
             const player = mpegts.createPlayer({
                 type: 'mpegts',
                 isLive: true,
-                url: `ws://rtsp-stream-backend-1.onrender.com/ws/stream/${stream.id}/?rtsp=${rtspUrl}`,
+                url: `wss://rtsp-stream-backend-1.onrender.com/ws/stream/${stream.id}/?rtsp=${rtspUrl}`,
             }, {
                 enableWorker: true,
                 liveBufferLatencyChasing: true,
