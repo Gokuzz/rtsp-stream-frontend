@@ -7,7 +7,7 @@ function App() {
     const [newStream, setNewStream] = useState('');
     const [isAdding, setIsAdding] = useState(false);
     // Define the WebSocket URL - this should match your backend server address
-    const websocketUrl = 'ws://127.0.0.1:8000'; // Update this to match your server
+    const websocketUrl = 'ws://rtsp-stream-backend-1.onrender.com'; // Update this to match your server
 
     // Function to add a new stream
     const addStream = useCallback(() => {
